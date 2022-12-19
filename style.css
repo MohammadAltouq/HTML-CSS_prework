@@ -1,0 +1,91 @@
+
+html{
+    background-color: beige;
+    height: 100%;
+    margin: 0px;
+    margin-left: 105px;
+}
+body{
+    height: 100%;
+    margin: 0px;
+    margin-top: 0px; 
+    width: 100%;
+}
+#sidebar{
+    background-color:rgb(103, 208, 232);
+    border: solid;
+    position:fixed;
+    width: 100px;
+    height:100%;
+    top: 0;
+    left: 0;
+    font-size: x-large;
+}
+#topbar{
+    border: 5px solid black;
+    background-color: rgb(103, 208, 232);
+    text-shadow: 3px 1px white;
+    padding-left: 20px;
+    height: 60px;
+
+}
+#searchbar{
+    position:absolute;
+    top: 40px;
+    right: 30px;
+}
+main{
+    display:  inline-block;
+    padding: 20px;
+
+}
+nav ul{
+    list-style: none;
+    padding-left: 0%;
+}
+nav li{
+    padding-top: 0px;
+    padding-left: 5px;
+    margin-top: 30px;
+}
+#article1{
+    border-bottom: 5px solid black;
+}
+#article2-img{
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+#article2{
+    float: right;
+}
+#article3{
+    width: 49%;
+    float: left;
+    border: 0.1px solid black;
+    display: inline block;
+
+}
+#article4{
+    width: 49%;
+    float: right;
+    border: 0.1px solid black;
+    display: inline block ;
+}
+footer{
+    bottom: 0px;
+}
+#p{
+
+    width: 20%;
+    border-radius:50%;
+    float:left;
+}
+#imgtext{
+    width: 78%;
+    float: right;
+    margin-top: 2%;
+    display: inline block;
+}
+
